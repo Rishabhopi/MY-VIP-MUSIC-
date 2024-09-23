@@ -186,9 +186,9 @@ async def help_button(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ ʙᴀᴄᴋ", callback_data=f"help_back({prev_page_num})"
+                        text="⦿ ʙᴀᴄᴋ ⦿", callback_data=f"help_back({prev_page_num})"
                     ),
-                    InlineKeyboardButton(text="🔄 ᴄʟᴏsᴇ", callback_data="close"),
+                    InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="close"),
                 ],
             ]
         )
